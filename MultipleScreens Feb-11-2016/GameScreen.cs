@@ -15,17 +15,19 @@ namespace MultipleScreens_Feb_11_2016
         public GameScreen()
         {
             InitializeComponent();
+
         }
 
         private void GameScreen_Load(object sender, EventArgs e)
         {
-            //Load event method
             //clear pattern list (stored in the global form1). FRESH when new
-            //Refresh to show screen
-            //Pause the program a bit
-            //Then Starts the custom method "Computer Turn"
+            Form1.patternList.Clear();
+            Refresh();
         }
 
-        //custom metheod ComputerTurn
+        private void ComputerTurn()
+        {
+            Random computerGuesses = new Random(0-4);
+        }
     }
 }

@@ -38,7 +38,7 @@
             this.nameLabel.AutoSize = true;
             this.nameLabel.Font = new System.Drawing.Font("Myriad Pro Cond", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nameLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.nameLabel.Location = new System.Drawing.Point(183, 22);
+            this.nameLabel.Location = new System.Drawing.Point(183, 41);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(131, 34);
             this.nameLabel.TabIndex = 4;
@@ -59,7 +59,7 @@
             // 
             // startButton
             // 
-            this.startButton.Location = new System.Drawing.Point(173, 297);
+            this.startButton.Location = new System.Drawing.Point(173, 327);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(141, 99);
             this.startButton.TabIndex = 6;
