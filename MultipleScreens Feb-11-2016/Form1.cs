@@ -12,9 +12,10 @@ namespace MultipleScreens_Feb_11_2016
 {
     public partial class Form1 : Form
     {
+       //Public results 
        public static string name = "Hello Donny!";  // on the playScreen.cs
-       public static List<int> patternList = new List<int>();
-       public static List<int> playerList = new List<int>();
+       public static List<int> patternList = new List<int>();  //Color pattern 
+       public static List<int> playerList = new List<int>();  //The player's input
         
     
         public Form1()

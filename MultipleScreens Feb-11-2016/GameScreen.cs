@@ -13,13 +13,19 @@ namespace MultipleScreens_Feb_11_2016
 {
     public partial class GameScreen : UserControl
     {
-        int patternLevel = 0; // for the comuter to start off with level
-        Random numbGen = new Random(0 - 4);  //Generate the random number
-
-        Button[] buttons = new Button[4]; //array for button
+        //Lists
         List<int> playerPattern = new List<int>();
+        List<int> computerPattern = new List<int>();
 
+        //Random Number generator
+        Random numbGen = new Random(0 - 4);
 
+        //Regular int for each level.
+        int patternLevel = 0; // for the comuter to start off with level
+       
+        //Arrays
+        Button[] buttons = new Button[4]; 
+        
         public GameScreen()
         {
             InitializeComponent();
@@ -87,7 +93,10 @@ namespace MultipleScreens_Feb_11_2016
         private void PlayerTurn()
         {
             for (int x = 0; x < playerPattern.Count(); x++) ;
-            { // left off from here}
+            {
+                //If the player gets it right
+                if (computerPattern[x] == playerPattern[x]) ;
+
 
         }
     }
