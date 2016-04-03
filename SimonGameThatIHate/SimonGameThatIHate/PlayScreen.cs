@@ -89,13 +89,13 @@ namespace SimonGameThatIHate
         public void computerTurn()
         {
             //create new random pattern
-            for (int i = 0; i < Form1.pattern.Count(); i++)
+            for (int i = 0; i<Form1.pattern.Count(); i++)
             {
                 computersList.Add(randNum.Next(0, 4));
             }
 
             //highlight each button in the pattern 
-            for (int x = 0; x < computersList.Count(); x++)
+            for (int x = 0; x<computersList.Count(); x++)
             {
                 switch(computersList[x])
                 {
