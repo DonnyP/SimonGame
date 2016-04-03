@@ -100,9 +100,9 @@
             this.messageLabel.AutoSize = true;
             this.messageLabel.Location = new System.Drawing.Point(152, 24);
             this.messageLabel.Name = "messageLabel";
-            this.messageLabel.Size = new System.Drawing.Size(59, 13);
+            this.messageLabel.Size = new System.Drawing.Size(49, 13);
             this.messageLabel.TabIndex = 11;
-            this.messageLabel.Text = "MESSAGE";
+            this.messageLabel.Text = "message";
             // 
             // PlayScreen
             // 
